@@ -67,6 +67,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/TB.png"
     },
     {
+      "name": "TSET.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/TSET.png"
+    },
+    {
       "name": "Telegram.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Telegram.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "日本.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%97%A5%E6%9C%AC.png"
-    },
-    {
-      "name": "测速.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%B5%8B%E9%80%9F.png"
     }
   ]
 }
