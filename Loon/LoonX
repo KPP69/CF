@@ -103,9 +103,9 @@ https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/Loon/Rule/APNs.list, 
 https://rule.kelee.one/Loon/Direct.lsr, policy=直连模式, tag=规则修正, enabled=true
 
 https://rule.kelee.one/Loon/AdvertisingLite.lsr, policy=禁止模式, tag=禁止广告, enabled=true
+https://rule.kelee.one/Loon/Advertising.lsr, policy=禁止模式, tag=禁止广告, enabled=false
 https://rule.kelee.one/Loon/Hijacking.lsr, policy=禁止模式, tag=反劫服务, enabled=true
 https://rule.kelee.one/Loon/Privacy.lsr, policy=禁止模式, tag=隐私保护, enabled=true
-https://rule.kelee.one/Loon/Advertising.lsr, policy=禁止模式, tag=禁止广告, enabled=false
 
 https://rule.kelee.one/Loon/Apple.lsr, policy=苹果服务, tag=苹果服务, enabled=true
 https://rule.kelee.one/Loon/Google.lsr, policy=谷歌服务, tag=谷歌服务, enabled=true
