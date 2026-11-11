@@ -27,6 +27,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Instagram.png"
     },
     {
+      "name": "JZMS.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/JZMS.png"
+    },
+    {
       "name": "Loon.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Loon.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "直连模式.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%9B%B4%E8%BF%9E%E6%A8%A1%E5%BC%8F.png"
-    },
-    {
-      "name": "禁止模式.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%A6%81%E6%AD%A2%E6%A8%A1%E5%BC%8F.png"
     }
   ]
 }
