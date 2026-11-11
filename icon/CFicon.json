@@ -63,6 +63,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/QDXS.png"
     },
     {
+      "name": "SG.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/SG.png"
+    },
+    {
       "name": "Spotify.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Spotify.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "拼多多.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%8B%BC%E5%A4%9A%E5%A4%9A.png"
-    },
-    {
-      "name": "新加坡.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%96%B0%E5%8A%A0%E5%9D%A1.png"
     }
   ]
 }
