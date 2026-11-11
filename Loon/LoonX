@@ -119,7 +119,8 @@ https://rule.kelee.one/Loon/Spotify.lsr, policy=Spotify, tag=Spotify, enabled=tr
 https://rule.kelee.one/Loon/Instagram.lsr, policy=Ins Ins, tag=Ins Ins, enabled=true
 
 https://rule.kelee.one/Loon/Proxy.lsr, policy=策略模式, tag=国际服务, enabled=true
-https://rule.kelee.one/Loon/ChinaMax.lsr, policy=直连模式, tag=国内服务, enabled=true
+https://rule.kelee.one/Loon/China.lsr, policy=直连模式, tag=国内服务, enabled=true
+https://rule.kelee.one/Loon/ChinaMax.lsr, policy=直连模式, tag=国内服务, enabled=false
 https://rule.kelee.one/Loon/Lan.lsr, policy=直连模式, tag=局域网络, enabled=true
 
 # 域名映射
