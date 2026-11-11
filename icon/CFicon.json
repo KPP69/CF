@@ -59,6 +59,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/OKX.png"
     },
     {
+      "name": "PDD.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/PDD.png"
+    },
+    {
       "name": "QDXS.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/QDXS.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "微博02.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E5%BE%AE%E5%8D%9A02.png"
-    },
-    {
-      "name": "拼多多.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%8B%BC%E5%A4%9A%E5%A4%9A.png"
     }
   ]
 }
