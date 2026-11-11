@@ -59,6 +59,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/TikTok.png"
     },
     {
+      "name": "US.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/US.png"
+    },
+    {
       "name": "VN.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/VN.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "网易云.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%BD%91%E6%98%93%E4%BA%91.png"
-    },
-    {
-      "name": "美国.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%BE%8E%E5%9B%BD.png"
     }
   ]
 }
