@@ -39,7 +39,7 @@ doh-server = https://doh.pub/dns-query, https://dns.alidns.com/dns-query
 # 代理策略
 [policy]
 static = 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Quantumult_X.png
-url-latency-benchmark = 优选模式, server-tag-regex=.*, check-interval=120, tolerance=60, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Speedtest.png
+url-latency-benchmark = 优选模式, server-tag-regex=香港|港|🇭🇰|HK|(?i)Hong|新加坡|新|🇸🇬|SG|(?i)Singapore|日本|日|🇯🇵|JP|(?i)Japan, check-interval=120, tolerance=60, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Speedtest.png
 
 static = 苹果服务, 直连模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_2.png
 static = 谷歌服务, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
