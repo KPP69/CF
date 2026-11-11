@@ -63,6 +63,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Spotify.png"
     },
     {
+      "name": "TB.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/TB.png"
+    },
+    {
       "name": "Telegram.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Telegram.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "测速.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%B5%8B%E9%80%9F.png"
-    },
-    {
-      "name": "淘宝.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%B7%98%E5%AE%9D.png"
     }
   ]
 }
