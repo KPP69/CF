@@ -91,6 +91,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/YouTube.png"
     },
     {
+      "name": "ZLMS.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/ZLMS.png"
+    },
+    {
       "name": "中国.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E4%B8%AD%E5%9B%BD.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "番茄小说.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4.png"
-    },
-    {
-      "name": "直连模式.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%9B%B4%E8%BF%9E%E6%A8%A1%E5%BC%8F.png"
     }
   ]
 }
