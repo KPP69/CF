@@ -1,0 +1,154 @@
+{
+  "name": "CF Icon",
+  "description": "KPP69 图标集",
+  "icons": [
+    {
+      "name": "12306.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/12306.png"
+    },
+    {
+      "name": "Apple.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Apple.png"
+    },
+    {
+      "name": "ChatGPT.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/ChatGPT.png"
+    },
+    {
+      "name": "Google.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Google.png"
+    },
+    {
+      "name": "Instagram.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Instagram.png"
+    },
+    {
+      "name": "Loon.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Loon.png"
+    },
+    {
+      "name": "Microsoft.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Microsoft.png"
+    },
+    {
+      "name": "Netflix.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Netflix.png"
+    },
+    {
+      "name": "OKX.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/OKX.png"
+    },
+    {
+      "name": "Spotify.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Spotify.png"
+    },
+    {
+      "name": "Telegram.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Telegram.png"
+    },
+    {
+      "name": "TikTok.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/TikTok.png"
+    },
+    {
+      "name": "Windows.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Windows.png"
+    },
+    {
+      "name": "X.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/X.png"
+    },
+    {
+      "name": "YouTube.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/YouTube.png"
+    },
+    {
+      "name": "中国.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E4%B8%AD%E5%9B%BD.png"
+    },
+    {
+      "name": "京东.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E4%BA%AC%E4%B8%9C.png"
+    },
+    {
+      "name": "小红书.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E5%B0%8F%E7%BA%A2%E4%B9%A6.png"
+    },
+    {
+      "name": "得物.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E5%BE%97%E7%89%A9.png"
+    },
+    {
+      "name": "微博01.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E5%BE%AE%E5%8D%9A01.png"
+    },
+    {
+      "name": "微博02.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E5%BE%AE%E5%8D%9A02.png"
+    },
+    {
+      "name": "拼多多.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%8B%BC%E5%A4%9A%E5%A4%9A.png"
+    },
+    {
+      "name": "新加坡.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%96%B0%E5%8A%A0%E5%9D%A1.png"
+    },
+    {
+      "name": "日本.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%97%A5%E6%9C%AC.png"
+    },
+    {
+      "name": "测速.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%B5%8B%E9%80%9F.png"
+    },
+    {
+      "name": "淘宝.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%B7%98%E5%AE%9D.png"
+    },
+    {
+      "name": "滴滴.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%BB%B4%E6%BB%B4.png"
+    },
+    {
+      "name": "番茄小说.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4.png"
+    },
+    {
+      "name": "直连模式.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%9B%B4%E8%BF%9E%E6%A8%A1%E5%BC%8F.png"
+    },
+    {
+      "name": "禁止模式.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%A6%81%E6%AD%A2%E6%A8%A1%E5%BC%8F.png"
+    },
+    {
+      "name": "网易云.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%BD%91%E6%98%93%E4%BA%91.png"
+    },
+    {
+      "name": "美国.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%BE%8E%E5%9B%BD.png"
+    },
+    {
+      "name": "起点小说.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E8%B5%B7%E7%82%B9%E5%B0%8F%E8%AF%B4.png"
+    },
+    {
+      "name": "越南.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E8%B6%8A%E5%8D%97.png"
+    },
+    {
+      "name": "闲鱼.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E9%97%B2%E9%B1%BC.png"
+    },
+    {
+      "name": "香港.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E9%A6%99%E6%B8%AF.png"
+    },
+    {
+      "name": "马来西亚.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A.png"
+    }
+  ]
+}
