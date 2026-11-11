@@ -15,6 +15,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/ChatGPT.png"
     },
     {
+      "name": "FQXS.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/FQXS.png"
+    },
+    {
       "name": "Google.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Google.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "滴滴.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E6%BB%B4%E6%BB%B4.png"
-    },
-    {
-      "name": "番茄小说.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%95%AA%E8%8C%84%E5%B0%8F%E8%AF%B4.png"
     }
   ]
 }
