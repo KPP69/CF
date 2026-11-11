@@ -19,6 +19,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/DD.png"
     },
     {
+      "name": "DW.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/DW.png"
+    },
+    {
       "name": "FQXS.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/FQXS.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "小红书.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E5%B0%8F%E7%BA%A2%E4%B9%A6.png"
-    },
-    {
-      "name": "得物.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E5%BE%97%E7%89%A9.png"
     }
   ]
 }
