@@ -99,6 +99,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/VN.png"
     },
     {
+      "name": "WB02.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/WB02.png"
+    },
+    {
       "name": "WYY.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/WYY.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "微博01.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E5%BE%AE%E5%8D%9A01.png"
-    },
-    {
-      "name": "微博02.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E5%BE%AE%E5%8D%9A02.png"
     }
   ]
 }
