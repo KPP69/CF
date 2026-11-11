@@ -11,6 +11,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Apple.png"
     },
     {
+      "name": "CN.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/CN.png"
+    },
+    {
       "name": "ChatGPT.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/ChatGPT.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "ZLMS.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/ZLMS.png"
-    },
-    {
-      "name": "中国.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E4%B8%AD%E5%9B%BD.png"
     }
   ]
 }
