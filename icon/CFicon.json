@@ -123,6 +123,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/X.png"
     },
     {
+      "name": "XHS.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/XHS.png"
+    },
+    {
       "name": "XY.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/XY.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "京东.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E4%BA%AC%E4%B8%9C.png"
-    },
-    {
-      "name": "小红书.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E5%B0%8F%E7%BA%A2%E4%B9%A6.png"
     }
   ]
 }
