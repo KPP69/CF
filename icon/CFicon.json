@@ -43,6 +43,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/OKX.png"
     },
     {
+      "name": "QDXS.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/QDXS.png"
+    },
+    {
       "name": "Spotify.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Spotify.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "美国.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E7%BE%8E%E5%9B%BD.png"
-    },
-    {
-      "name": "起点小说.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E8%B5%B7%E7%82%B9%E5%B0%8F%E8%AF%B4.png"
     }
   ]
 }
