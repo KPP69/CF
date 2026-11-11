@@ -6,23 +6,23 @@
 # https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/CFicon.json
 
 [general]
-# 自定义解析器
-resource_parser_url = https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
-
 # 网络测试
 server_check_url = http://cp.cloudflare.com/generate_204
 server_check_timeout = 3000
 
-# UDP设置
-fallback_udp_policy = reject
-udp_drop_list = STUN, QUIC
-
 # 地理数据
 geo_location_checker = http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
+
+# 自定义解析器
+resource_parser_url = https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 
 # 流量排除
 excluded_routes = 192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8, 100.64.0.0/10, 239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.112.158/32, 182.162.132.1/32
 dns_exclusion_list = *.10099.com.cn, *.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me, *.pingan.com.cn, *.cmbchina.com, *.msftconnecttest.com, *.msftncsi.com, captive.apple.com
+
+# UDP设置
+fallback_udp_policy = reject
+udp_drop_list = STUN, QUIC
 
 [dns]
 # 禁用系统 DNS/IPv6
@@ -30,11 +30,11 @@ prefer-doh3
 no-system
 no-ipv6
 
-# 服务器
+# 常规 DNS 服务器
 server = 223.5.5.5
 server = 119.29.29.29
-doq-server = quic://223.5.5.5, quic://223.6.6.6
-doh-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query
+# 加密 DNS 服务器
+doh-server = https://doh.pub/dns-query, https://dns.alidns.com/dns-query
 
 # 代理策略
 [policy]
@@ -97,7 +97,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 # 规则
 [filter_local]
 host-suffix, push.apple.com, 优选模式
-geoip, cn, 直连模式
 final, 策略模式
 
 # 重写
