@@ -44,13 +44,13 @@ url-latency-benchmark = 优选模式, server-tag-regex=.*, check-interval=120, t
 static = 苹果服务, 直连模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_2.png
 static = 谷歌服务, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
 static = 智能服务, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
-static = 微软服务, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
 static = 推特服务, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/X.png
 static = 飞机服务, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 static = 加密服务, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/OKX.png
 static = 抖音服务, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_1.png
 static = Spotify, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
 static = Ins Ins, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Instagram.png
+static = 微软服务, 策略模式, 优选模式, 香港, 狮城, 日本, 台湾, 美国, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
 
 static = 直连模式, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
 static = 禁止模式, reject, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Reject.png
@@ -66,26 +66,28 @@ url-latency-benchmark = 美国, server-tag-regex=美国|美|🇺🇸|US|(?i)Stat
 
 # 远程规则
 [filter_remote]
+https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/QuanX/Rule/APNs.list, tag=苹果推送, force-policy=优选模式, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Direct/Direct.list, tag=规则修正, force-policy=直连模式, update-interval=86400, opt-parser=true, enabled=true
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list, tag=禁止广告, force-policy=禁止模式, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list, tag=禁止广告, force-policy=禁止模式, update-interval=86400, opt-parser=true, enabled=false
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Hijacking/Hijacking.list, tag=反劫服务, force-policy=禁止模式, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Privacy/Privacy.list, tag=隐私保护, force-policy=禁止模式, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list, tag=禁止广告, force-policy=禁止模式, update-interval=86400, opt-parser=true, enabled=false
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, tag=苹果服务, force-policy=苹果服务, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list, tag=谷歌服务, force-policy=谷歌服务, update-interval=86400, opt-parser=true, enabled=true
-https://ddgksf2013.top/filter/Ai.yaml, tag=智能服务, force-policy=智能服务, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list, tag=微软服务, force-policy=微软服务, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/QuanX/Rule/Ai.list, tag=智能服务, force-policy=智能服务, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list, tag=推特服务, force-policy=推特服务, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list, tag=飞机服务, force-policy=飞机服务, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/aonerccc/ae/refs/heads/main/Crypto.list, policy=加密服务, tag=加密服务, enabled=true
+https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/QuanX/Rule/Crypto.list, tag=加密服务, force-policy=加密服务, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TikTok/TikTok.list, tag=抖音服务, force-policy=抖音服务, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list, tag=Spotify, force-policy=Spotify, update-interval=86400, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Instagram/Instagram.list, tag=Ins Ins, force-policy=Ins Ins, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Microsoft/Microsoft.list, tag=微软服务, force-policy=微软服务, update-interval=86400, opt-parser=true, enabled=true
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list, tag=国际服务, force-policy=策略模式, update-interval=86400, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list, tag=国内服务, force-policy=直连模式, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/China/China.list, tag=国内服务, force-policy=直连模式, update-interval=86400, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaMax/ChinaMax.list, tag=国内服务, force-policy=直连模式, update-interval=86400, opt-parser=true, enabled=false
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Lan/Lan.list, tag=局域网络, force-policy=直连模式, update-interval=86400, opt-parser=true, enabled=true
 
 # 远程重写
@@ -96,7 +98,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 
 # 规则
 [filter_local]
-host-suffix, push.apple.com, 优选模式
 final, 策略模式
 
 # 重写
