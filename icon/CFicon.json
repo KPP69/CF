@@ -39,6 +39,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/Instagram.png"
     },
     {
+      "name": "JD.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/JD.png"
+    },
+    {
       "name": "JP.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/JP.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "中国.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E4%B8%AD%E5%9B%BD.png"
-    },
-    {
-      "name": "京东.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E4%BA%AC%E4%B8%9C.png"
     }
   ]
 }
