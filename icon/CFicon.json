@@ -63,6 +63,10 @@
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/X.png"
     },
     {
+      "name": "XY.png",
+      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/XY.png"
+    },
+    {
       "name": "YouTube.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/YouTube.png"
     },
@@ -141,10 +145,6 @@
     {
       "name": "越南.png",
       "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E8%B6%8A%E5%8D%97.png"
-    },
-    {
-      "name": "闲鱼.png",
-      "url": "https://raw.githubusercontent.com/KPP69/CF/refs/heads/main/icon/app/%E9%97%B2%E9%B1%BC.png"
     }
   ]
 }
