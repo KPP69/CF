@@ -222,7 +222,7 @@ proxy-groups:
     type: url-test
     include-all: true
     icon:
-    filter: (?i)(\[HK\]|^HK$|Hong Kong|\bHK\b|香港|🇨🇳香港)
+    filter: (?i)(🇭🇰|HK|Hong.?Kong|香港)
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -231,7 +231,7 @@ proxy-groups:
     type: url-test
     include-all: true
     icon:
-    filter: (?i)(\[SG\]|^SG$|Singapore|\bSG\b|新加坡|狮城)
+    filter: (?i)(🇸🇬|SG|Singapore|新加坡|狮城)
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -240,7 +240,7 @@ proxy-groups:
     type: url-test
     include-all: true
     icon:
-    filter: (?i)(\[JP\]|^JP$|Japan|\bJP\b|日本|东京|大阪|🇯🇵日本)
+    filter: (?i)(🇯🇵|JP|Japan|日本|东京|大阪)
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -249,7 +249,7 @@ proxy-groups:
     type: url-test
     include-all: true
     icon:
-    filter: (?i)(\[TW\]|^TW$|Taiwan|Taibei|\bTW\b|台湾|台北|🇹🇼)
+    filter: (?i)(🇨🇳|🇹🇼|TW|Taiwan|台湾|台北)
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -258,7 +258,7 @@ proxy-groups:
     type: url-test
     include-all: true
     icon:
-    filter: (?i)(\[US\]|^US$|USA|United States|\bUS\b|美国)
+    filter: (?i)(🇺🇸|US|USA|United.?States|美国)
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
