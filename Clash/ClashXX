@@ -85,8 +85,8 @@ proxy-groups:
 
   - name: 手动模式
     type: select
-    include-all: true
     icon:
+    include-all: true
 
   - name: 优选模式
     type: url-test
