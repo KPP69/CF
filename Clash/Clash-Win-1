@@ -98,27 +98,27 @@ proxy-groups:
 
   - name: 谷歌服务
     type: select
-    proxies: [策略模式, 优选模式]
+    proxies: [策略模式, 手动模式, 优选模式]
 
   - name: 推特服务
     type: select
-    proxies: [策略模式, 优选模式]
+    proxies: [策略模式, 手动模式, 优选模式]
 
   - name: 飞机服务
     type: select
-    proxies: [策略模式, 优选模式]
+    proxies: [策略模式, 手动模式, 优选模式]
 
   - name: 加密服务
     type: select
-    proxies: [手动模式, 优选模式]
+    proxies: [策略模式, 手动模式, 优选模式]
 
   - name: 智能服务
     type: select
-    proxies: [手动模式, 优选模式]
+    proxies: [策略模式, 手动模式, 优选模式]
 
   - name: 微软服务
     type: select
-    proxies: [策略模式, 优选模式]
+    proxies: [策略模式, 手动模式, 优选模式]
 
   - name: 直连模式
     type: select
