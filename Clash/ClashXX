@@ -11,6 +11,7 @@ geo-auto-update: true
 geo-update-interval: 24
 tcp-concurrent: true
 find-process-mode: strict
+global-client-fingerprint: chrome
 
 allow-lan: true
 mode: rule
@@ -94,12 +95,14 @@ proxy-groups:
 
   - name: 手动模式
     type: select
-    include-all: true
+    use:
+      - subscribe
     icon:
 
   - name: 优选模式
     type: url-test
-    include-all: true
+    use:
+      - subscribe
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -165,10 +168,10 @@ proxy-groups:
     proxies: [REJECT]
     icon:
 
-
   - name: 香港
     type: url-test
-    include-all: true
+    use:
+      - subscribe
     filter: (?i)(🇭🇰|HK|Hong.?Kong|香港)
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -177,7 +180,8 @@ proxy-groups:
 
   - name: 狮城
     type: url-test
-    include-all: true
+    use:
+      - subscribe
     filter: (?i)(🇸🇬|SG|Singapore|新加坡|狮城)
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -186,7 +190,8 @@ proxy-groups:
 
   - name: 日本
     type: url-test
-    include-all: true
+    use:
+      - subscribe
     filter: (?i)(🇯🇵|JP|Japan|日本|东京|大阪)
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -195,7 +200,8 @@ proxy-groups:
 
   - name: 台湾
     type: url-test
-    include-all: true
+    use:
+      - subscribe
     filter: (?i)(🇨🇳|🇹🇼|TW|Taiwan|台湾|台北)
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -204,7 +210,8 @@ proxy-groups:
 
   - name: 美国
     type: url-test
-    include-all: true
+    use:
+      - subscribe
     filter: (?i)(🇺🇸|US|USA|United.?States|美国)
     url: http://www.gstatic.com/generate_204
     interval: 300
