@@ -22,7 +22,7 @@ profile:
   store-fake-ip: true
 
 sniffer:
-  enable: false
+  enable: true
   sniff:
     HTTP:
       ports: []
