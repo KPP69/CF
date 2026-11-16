@@ -3,7 +3,7 @@ allow-lan: false
 bind-address: "*"
 mode: rule
 log-level: info
-ipv6: false
+ipv6: true
 find-process-mode: strict
 external-controller: 0.0.0.0:9093
 
@@ -13,7 +13,7 @@ geox-url:
 
 unified-delay: true
 tcp-concurrent: true
-keep-alive-idle: 30
+keep-alive-idle: 60
 keep-alive-interval: 15
 disable-keep-alive: false
 
@@ -44,9 +44,9 @@ profile:
   store-fake-ip: true  
 
 dns:
+  ipv6: true
   enable: true
   listen: 0.0.0.0:1053
-  ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -138,7 +138,6 @@ proxy-groups:
     proxies: [REJECT]
 
 rules:
-  - RULE-SET,局域网络,直连模式
   - RULE-SET,规则修正,直连模式
   - RULE-SET,屏蔽服务,禁止模式
   - RULE-SET,禁止广告,禁止模式
@@ -158,17 +157,11 @@ rules:
 
   - RULE-SET,国际服务,策略模式
   - RULE-SET,国内服务,直连模式
+  - RULE-SET,局域网络,直连模式
   - GEOIP,CN,直连模式
   - MATCH,策略模式
 
 rule-providers:
-  局域网络:
-    type: http
-    behavior: classical
-    format: yaml
-    interval: 86400
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
-
   规则修正:
     type: http
     behavior: classical
@@ -278,3 +271,10 @@ rule-providers:
     format: yaml
     interval: 86400
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
+
+  局域网络:
+    type: http
+    behavior: classical
+    format: yaml
+    interval: 86400
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
