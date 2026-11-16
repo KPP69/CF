@@ -23,6 +23,7 @@ profile:
 
 sniffer:
   enable: true
+  override-destination: true
   sniff:
     HTTP:
       ports: []
