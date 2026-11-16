@@ -1,18 +1,15 @@
 mixed-port: 7890
 
-unified-delay: true
-tcp-concurrent: true
-find-process-mode: off
-keep-alive-idle: 60
-keep-alive-interval: 15
-disable-keep-alive: false
-
 allow-lan: true
 bind-address: '*'
 mode: rule
 log-level: warning
 ipv6: true
 external-controller: 127.0.0.1:9090
+
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: off
 
 geox-url:
   asn: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb
@@ -68,22 +65,16 @@ dns:
     - +.lan
     - +.local
   proxy-server-nameserver:
-    - https://172.237.2.224:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-    - https://120.25.121.157:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-    - https://2.56.98.127:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-  nameserver-policy:
-    n-02.nodecon.uk:
-      - https://172.237.2.224:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-      - https://120.25.121.157:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-      - https://2.56.98.127:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-    n-26-p.nodecon.uk:
-      - https://172.237.2.224:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-      - https://120.25.121.157:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-      - https://2.56.98.127:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-    n-26-2x.nodecon.uk:
-      - https://172.237.2.224:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-      - https://120.25.121.157:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
-      - https://2.56.98.127:2443/dns-query/2604e235-2fcc-4342-8c40-12ca81c69f0d
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
 
 proxy-providers:
   A:
