@@ -8,7 +8,6 @@
 [General]
 # IP协议
 ip-mode = v4-only
-ipv6-vif = off
 
 # DNS配置
 dns-server = system,119.29.29.29,223.5.5.5
@@ -34,12 +33,12 @@ wifi-access-socks5-port = 7221
 # 网络接口
 interface-mode = auto
 # 策略切换
-disconnect-on-policy-change = false
+disconnect-on-policy-change = true
 
 # 网络测速
 test-timeout = 5
-internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
-proxy-test-url = http://www.gstatic.com/generate_204
+proxy-test-url = http://cp.cloudflare.com/generate_204
+# proxy-test-url=http://www.gstatic.com/generate_204
 
 # 地理数据
 geoip-url = https://geodata.kelee.one/Country-Masaiki.mmdb
@@ -71,7 +70,7 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 # 代理策略
 [Proxy Group]
 策略模式 = select,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Loon.png
-优选模式 = url-test,常用节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 60,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/TSET.png
+优选模式 = url-test,常用节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 50,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/TSET.png
 
 苹果服务 = select,直连模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Apple.png
 谷歌服务 = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Google.png
@@ -87,11 +86,11 @@ Spotify = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,im
 直连模式 = select,DIRECT,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/ZLMS.png
 禁止模式 = select,REJECT,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/JZMS.png
 
-香港 = url-test,香港节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 60,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/HK.png
-狮城 = url-test,狮城节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 60,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/SG.png
-日本 = url-test,日本节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 60,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/JP.png
-台湾 = url-test,台湾节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 60,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/CN.png
-美国 = url-test,美国节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 60,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/US.png
+香港 = url-test,香港节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 50,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/HK.png
+狮城 = url-test,狮城节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 50,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/SG.png
+日本 = url-test,日本节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 50,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/JP.png
+台湾 = url-test,台湾节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 50,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/CN.png
+美国 = url-test,美国节点,url = http://www.gstatic.com/generate_204,interval = 120,tolerance = 50,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/US.png
 
 # 规则
 [Rule]
