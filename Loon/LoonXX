@@ -11,8 +11,8 @@ ip-mode = v4-only
 ipv6-vif = off
 
 # DNS配置
-dns-server = 223.5.5.5,119.29.29.29
-doh-server = https://dns.alidns.com/dns-query,https://doh.pub/dns-query
+dns-server = system,119.29.29.29,223.5.5.5
+doh-server = https://doh.pub/dns-query,https://dns.alidns.com/dns-query
 
 # SNI辅助匹配
 sni-sniffing = true
