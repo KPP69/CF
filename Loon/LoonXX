@@ -75,14 +75,14 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 
 苹果服务 = select,直连模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Apple.png
 谷歌服务 = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Google.png
+智能服务 = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/ChatGPT.png
 推特服务 = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/X.png
 飞机服务 = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Telegram.png
 加密服务 = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/OKX.png
-智能服务 = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/ChatGPT.png
 抖音服务 = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/TikTok.png
-Spotify = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Spotify.png
-Ins Ins = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Instagram.png
 微软服务 = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Windows.png
+Ins Ins = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Instagram.png
+Spotify = select,策略模式,优选模式,香港,狮城,日本,台湾,美国,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/Spotify.png
 
 直连模式 = select,DIRECT,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/ZLMS.png
 禁止模式 = select,REJECT,img-url = https://raw.githubusercontent.com/KPP69/CF/main/icon/app/JZMS.png
@@ -118,14 +118,14 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple_Domain.list, policy=苹果服务, tag=苹果服务, enabled=true
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list, policy=谷歌服务, tag=谷歌服务, enabled=true
+https://raw.githubusercontent.com/KPP69/CF/main/Loon/Rule/Ai.list, policy=智能服务, tag=智能服务, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitter/Twitter.list, policy=推特服务, tag=推特服务, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list, policy=飞机服务, tag=飞机服务, enabled=true
 https://raw.githubusercontent.com/KPP69/CF/main/Loon/Rule/Crypto.list, policy=加密服务, tag=加密服务, enabled=true
-https://raw.githubusercontent.com/KPP69/CF/main/Loon/Rule/Ai.list, policy=智能服务, tag=智能服务, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TikTok/TikTok.list, policy=抖音服务, tag=抖音服务, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Spotify/Spotify.list, policy=Spotify, tag=Spotify, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Instagram/Instagram.list, policy=Ins Ins, tag=Ins Ins, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list, policy=微软服务, tag=微软服务, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Instagram/Instagram.list, policy=Ins Ins, tag=Ins Ins, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Spotify/Spotify.list, policy=Spotify, tag=Spotify, enabled=true
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy.list, policy=策略模式, tag=国际服务, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Proxy/Proxy_Domain.list, policy=策略模式, tag=国际服务, enabled=true
