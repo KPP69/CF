@@ -8,6 +8,7 @@
 [General]
 # IP协议
 ip-mode = v4-only
+ipv6-vif=off
 
 # DNS配置
 dns-server = system,119.29.29.29,223.5.5.5
