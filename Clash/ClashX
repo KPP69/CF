@@ -1,34 +1,44 @@
-proxy-providers:
-  A:
-    type: http
-    url: ""
-    interval: 86400
-
-external-controller: 127.0.0.1:9090
-log-level: info
 mixed-port: 7890
-find-process-mode: strict
 allow-lan: false
-bind-address: '*'
 mode: rule
+log-level: info
 ipv6: false
-
 
 unified-delay: true
 tcp-concurrent: true
+find-process-mode: strict
 
-
+external-controller: 127.0.0.1:9090
 
 tun:
-  dns-hijack:
-    - any:53
   enable: true
   stack: mixed
   auto-route: true
   auto-detect-interface: true
+  dns-hijack:
+    - any:53
 
-geo-auto-update: true
-geo-update-interval: 24
+dns:
+  enable: true
+  use-hosts: true
+  use-system-hosts: true
+  ipv6: false
+  prefer-h3: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - +.lan
+    - +.local
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+    - 1.1.1.1
+    - 8.8.8.8
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
 
 sniffer:
   enable: true
@@ -48,34 +58,23 @@ profile:
   store-selected: true
   store-fake-ip: true
 
+geo-auto-update: true
+geo-update-interval: 24
+
 geox-url:
   asn: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb
   geoip: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
   geosite: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
   mmdb: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb
 
-dns:
-  enable: true
-  listen: 0.0.0.0:1053
-  ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  use-hosts: true
-  use-system-hosts: true
-  prefer-h3: false
-  default-nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-    - 1.1.1.1
-    - 8.8.8.8
-  nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.google/dns-query
-  fake-ip-filter:
-    - +.lan
-    - +.local
+
+
+proxy-providers:
+  A:
+    type: http
+    url: ""
+    interval: 86400
+
 
 
 proxy-groups:
