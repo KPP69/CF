@@ -37,6 +37,7 @@ disconnect-on-policy-change = true
 
 # 网络测速
 test-timeout = 5
+internet-test-url=http://connectivitycheck.platform.hicloud.com/generate_204
 proxy-test-url = http://cp.cloudflare.com/generate_204
 # proxy-test-url=http://www.gstatic.com/generate_204
 
