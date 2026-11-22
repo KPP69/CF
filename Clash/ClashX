@@ -213,6 +213,7 @@ proxy-groups:
       - 台湾
       - 美国
 
+
   - name: 直连模式
     type: select
     hidden: true
@@ -224,6 +225,7 @@ proxy-groups:
     hidden: true
     proxies:
       - REJECT
+
 
   - name: 香港
     type: url-test
@@ -264,6 +266,7 @@ proxy-groups:
     tolerance: 60
     include-all-proxies: true
     filter: "(?i)🇺🇸|美国|美國|美西|美东|美東|洛杉矶|圣何塞|西雅图|硅谷|纽约|(?<![a-z])usa?(?![a-z])|united\\s*states"
+
 
 rule-providers:
   苹果推送:
