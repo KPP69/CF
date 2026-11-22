@@ -440,8 +440,8 @@ rules:
 - RULE-SET,隐私保护,禁止模式
 
 - RULE-SET,苹果服务,苹果服务
-- RULE-SET,谷歌服务,谷歌服务
 - RULE-SET,智能服务,智能服务
+- RULE-SET,谷歌服务,谷歌服务
 - RULE-SET,推特服务,推特服务
 - RULE-SET,飞机服务,飞机服务
 - RULE-SET,加密服务,加密服务
